@@ -54,3 +54,10 @@
 
 - Auto Close Tag 作者：Jun Han
 - 
+
+VScode设置相关
+关闭方法参数提示
+Parameter Hints
+
+输入完方法名，按shift+( 会键入其他方法
+TypeScript › Suggest: Auto Imports
