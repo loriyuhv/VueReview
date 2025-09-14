@@ -1,0 +1,25 @@
+<template>
+  <div class="app">
+    <h1>Hello vue3</h1>
+    <Person/>
+  </div>
+</template>
+
+<script lang="ts">
+  import Person from './components/Person.vue';
+  // 暴露组件选项
+  export default {
+    name: "App", // 组件名称
+    components: {
+      Person, // 注册Person组件
+    }
+  };
+</script>
+<style scoped>
+.app {
+  background-color: #ddd;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+</style>
