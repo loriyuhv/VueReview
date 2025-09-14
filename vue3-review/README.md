@@ -21,3 +21,36 @@
   - **诊断工具**
   - **代码格式化与规范检查**
 
+### 1.2 Auto Rename Tag
+
+描述：自动重命名标签
+
+### 1.3 Code Spell Checker
+
+描述：代码拼写检查
+
+### 1.4 Vue VSCode Snippets
+
+描述：vue代码片段生成
+
+```vue
+<!-- 命令v3tss生成以下代码 -->
+<template>
+  <div>
+
+  </div>
+</template>
+
+<script setup lang="ts">
+
+</script>
+
+<style scoped>
+
+</style>
+```
+
+### 1.9 其他插件
+
+- Auto Close Tag 作者：Jun Han
+- 
