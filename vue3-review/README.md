@@ -1,33 +1,23 @@
-# vue3-review
+# Vue3学习与回顾
 
-This template should help get you started developing with Vue 3 in Vite.
+## 一、插件
 
-## Recommended IDE Setup
+### 1.1 Vue (Official)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+描述：该扩展插件是Vue.js官方为Visual Studio Code开发的插件。
 
-## Type Support for `.vue` Imports in TS
+好处：
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- 提升开发效率
 
-## Customize configuration
+  - **智能代码补全与提示**
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+  - **类型检查与推断**
 
-## Project Setup
+  - **模板类型推导**
 
-```sh
-npm install
-```
+- 优化代码质量
 
-### Compile and Hot-Reload for Development
+  - **诊断工具**
+  - **代码格式化与规范检查**
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
