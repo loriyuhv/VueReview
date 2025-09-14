@@ -6,6 +6,7 @@
     <button @click="changeName()">修改姓名</button>
     <button @click="changeAge()">修改年龄</button>
     <button @click="changeFullName()">修改全名</button>
+
   </div>
 </template>
 
