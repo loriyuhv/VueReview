@@ -1,7 +1,7 @@
 <template>
   <div class="person">
     <h2>个人信息</h2>
-    <p>姓名: {{ name }}</p>
+    <p>姓名: {{ username }}</p>
     <p>年龄: {{ age }}</p>
     <button @click="changeName">修改名字</button>
     <button @click="changeAge">修改年龄</button>
@@ -18,14 +18,14 @@
     setup() {
       console.log(this) // setup中的this是undefined，Vue3在弱化this。
       /* 数据，原来是写在data中的，此时的name、age、tel都不是响应式的数据 */
-      let name = "John Doe"; /* 注意：这样修改name，页面是没有变化的 */
+      let username = "John Doe"; /* 注意：这样修改name，页面是没有变化的 */
       let age = 30; /* 非响应式数据 */
       let tel = "123-456-7890";
 
       /* 方法 */
       function changeName() {
-        name = "Jane Smith"; // 注意：这样修改name，页面是没有变化的
-        console.log(name); // name确实改了，但name不是响应式的
+        username = "Jane Smith"; // 注意：这样修改name，页面是没有变化的
+        console.log(username); // name确实改了，但name不是响应式的
         
       }
       function changeAge() {
@@ -37,7 +37,7 @@
         alert("联系方式: " + tel);  
       }
       // 返回需要在模板中使用的数据和方法
-      return {name, age, changeName, changeAge, showTel};
+      return {username, age, changeName, changeAge, showTel};
 
       // setup的返回值也可以是一个渲染函数
       // return ()=>'哈哈'
