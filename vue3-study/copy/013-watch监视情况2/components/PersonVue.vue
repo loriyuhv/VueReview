@@ -5,7 +5,7 @@
     <p>姓名：{{ person.name }}</p>
     <p>年龄：{{ person.age }}</p>
     <button @click="changeName()">修改姓名</button>
-    <button @click="changeAge()">修改姓名</button>
+    <button @click="changeAge()">修改年龄</button>
     <button @click="changePerson()">修改信息</button>
   </div>
 </template>
