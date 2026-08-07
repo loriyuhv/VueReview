@@ -7,7 +7,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import HomeVue from '../views/HomeVue.vue'
 import NewsVue from '../views/NewsVue.vue'
 import AboutVue from '../views/AboutVue.vue'
-import DetailVue from '@/views/DetailVue.vue'
+import DetailVue from '../views/DetailVue.vue'
 
 // 第二步：创建路由器
 const router = createRouter({
